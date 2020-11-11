@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("MainActivity", "流程: onDestroy");
     }
 
-    public void click_toB(View v){
+    public void switch_B(View v){
         Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
         Log.d("MainActivity", "A 頁面button : Press down");
